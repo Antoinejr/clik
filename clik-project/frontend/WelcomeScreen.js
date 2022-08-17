@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Image, SafeAreaView, Button, FlatList, Modal, TextInput } from 'react-native';
 import Axios from 'axios';
 
-const api = "LhPD1hxMR13h0KrgYPkHzoRbcECoMk7PBJ8FIxH8Q7U799CHEMDmVmPTUb6zekaa"
-
 function WelcomeScreen(props) {
     const [event, setEvent] = useState([]);
     const [name, setName] = useState("");
