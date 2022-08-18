@@ -12,7 +12,6 @@ app.listen(5000, () => {
     console.log("listening")
 });
 
-mongoose.connect("mongodb+srv://anto:nodepass00@cluster0.vqytbak.mongodb.net/?retryWrites=true&w=majority");
 
 
 //routes
